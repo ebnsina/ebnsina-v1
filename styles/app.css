@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Epilogue&display=swap');
 
 .hero {
-  -webkit-mask: url(https://ebnsina.vercel.app/_next/static/media/home-bg-mask.44ac7d490adb1e826fc3d81b09c0f952.svg);
+  -webkit-mask: url('home-bg-mask.svg');
   background-image: radial-gradient(circle at 51% 100%, #1f2938, #111828 62%);
   -webkit-mask-size: cover;
   mask-size: cover;

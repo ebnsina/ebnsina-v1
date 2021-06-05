@@ -17,8 +17,8 @@ function Hero() {
           <div className="bg-gradient-to-tr from-pink-500 to-yellow-500 p-1 rounded-full lg:rounded-lg">
             <div className="bg-white p-1 rounded-full lg:rounded-lg">
               <img
-                className="w-24 h-24 md:w-32 md:h-32 lg:w-72 lg:h-72 rounded-full lg:rounded-lg"
-                src="https://ebnsina.vercel.app/es.jpg"
+                className="w-24 h-24 md:w-32 md:h-32 lg:w-72 lg:h-72 rounded-full object-cover lg:rounded-lg"
+                src="/ebnsina.jpeg"
                 alt="ebnsina"
               />
             </div>

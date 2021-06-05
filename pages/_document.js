@@ -11,14 +11,6 @@ class MyDocument extends Document {
       <Html>
         <Head>
           <meta charSet="UTF-8" />
-          <meta name="robots" content="noindex, nofollow" />
-          <meta
-            name="viewport"
-            content="width=device-width, initial-scale=1.0"
-          />
-          <title>
-            Ebn Sina - Full Stack Developer &amp; JavaScript Evangelist
-          </title>
           <meta
             name="description"
             content="Ebn Sina is a Full Stack Developer, mostly works with JavaScript (JS), React.js, Next.js, Node.js, Deno, MongoDB, GraphQL, MySQL and all kind of cutting edge technology."
