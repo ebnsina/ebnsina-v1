@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Epilogue&display=swap');
 
 .hero {
-  -webkit-mask: url('home-bg-mask.svg');
+  -webkit-mask: url(../public/home-bg-mask.svg);
   background-image: radial-gradient(circle at 51% 100%, #1f2938, #111828 62%);
   -webkit-mask-size: cover;
   mask-size: cover;
