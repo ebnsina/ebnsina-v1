@@ -8,8 +8,8 @@ const SERVICES = [
     description:
       'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quas, adipisci.',
     btnText: 'Know More',
-    fromColor: 'cyan',
-    toColor: 'blue',
+    fromColor: 'hover:from-cyan-400',
+    toColor: 'hover:to-blue-400',
   },
   {
     id: 2,
@@ -17,8 +17,8 @@ const SERVICES = [
     description:
       'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quas, adipisci.',
     btnText: 'Know More',
-    fromColor: 'pink',
-    toColor: 'rose',
+    fromColor: 'hover:from-pink-400',
+    toColor: 'hover:to-rose-400',
   },
   {
     id: 3,
@@ -26,8 +26,8 @@ const SERVICES = [
     description:
       'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quas, adipisci.',
     btnText: 'Know More',
-    fromColor: 'green',
-    toColor: 'cyan',
+    fromColor: 'hover:from-green-400',
+    toColor: 'hover:to-cyan-400',
   },
 ];
 
@@ -39,7 +39,7 @@ function Service() {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-10">
           {SERVICES.map((service) => (
             <Card
-              className={`hover:from-${service.fromColor}-400 hover:to-${service.toColor}-400`}
+              className={`${service.fromColor} ${service.toColor}`}
               key={service.id}
               title={service.title}
               description={service.description}
