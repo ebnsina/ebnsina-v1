@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Epilogue&display=swap');
+
+.hero {
+  -webkit-mask: url(https://ebnsina.vercel.app/_next/static/media/home-bg-mask.44ac7d490adb1e826fc3d81b09c0f952.svg);
+  background-image: radial-gradient(circle at 51% 100%, #1f2938, #111828 62%);
+  -webkit-mask-size: cover;
+  mask-size: cover;
+  -webkit-mask-repeat: no-repeat;
+  mask-repeat: no-repeat;
+  -webkit-mask-position: center;
+  mask-position: center;
+}
+
+.card {
+  border-bottom-right-radius: 7rem;
+  transition: all 0.2s;
+}
+
+.portfolio-card > div {
+  opacity: 0;
+  visibility: hidden;
+}
+
+.portfolio-card:hover > div {
+  opacity: 1;
+  visibility: visible;
+}
